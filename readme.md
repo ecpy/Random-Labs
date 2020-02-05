@@ -1,8 +1,11 @@
 # Random Labs
 
+## projects
+- smartphone 3d scanner
+
 ## pendings
 - DDD and MVCS designs
-- Xdrive design
-- ML
-- Linux kernel
+- p2p xfs protocol
+- ml
+- linux kernel
 - vm 
