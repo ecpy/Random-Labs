@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name"><b><i>Image Retargeter</i></b></string>
+    <string name="take_a_photo">Take a photo</string>
+    <string name="import_from_gallery">Import from gallery</string>
+    <string name="save_file">Save file</string>
+    <string name="save_location">Save location</string>
+    <string name="erase">Erase</string>
+    <string name="about">About</string>
+    <string name="ink">Ink</string>
+    <string name="line">Line</string>
+    <string name="setting_export_location_title"><b><i>&#160;&#160;&#160;&#160;Export File Location&#160;&#160;&#160;&#160;</i></b></string>
+    <string name="about_title"><b><i>&#160;&#160;&#160;&#160;μ-Retargeter 1.0</i></b></string>
+    <string name="about_values"><i>"&#160;&#160;&#160;Credit to Prof. Lok Ming Lui's Applied Mathematics\n&#160;&#160; Group of The Chinese University of Hong Kong"</i></string>
+    <string name="brushColor">Brush Color</string>
+    <string name="exit">Exit</string>
+    <string name="show_mesh">Show mesh</string>
+    <string name="hide_mesh">Hide mesh</string>
+    <string name="selectModel">Select Model</string>
+    <string name="share">Share</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="ads_segma_retargeter_0">ca-app-pub-3882895524336494/9085688168</string>
+    <string name="ads_segma_retargeter_1">ca-app-pub-3882895524336494/2223399365</string>
+</resources>

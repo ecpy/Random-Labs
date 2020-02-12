@@ -1,0 +1,3 @@
+include ':app', ':jdt', ':dirchooser_'
+include ':openCVLibrary310'
+project(':dirchooser_').projectDir = new File('dirchooser')

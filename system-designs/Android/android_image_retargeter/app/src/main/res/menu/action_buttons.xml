@@ -1,0 +1,63 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/import_from_gallery"
+        android:icon="@drawable/import_from_gallary"
+        android:title="@string/import_from_gallery"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/take_a_photo"
+        android:icon="@drawable/take_a_photo"
+        android:title="@string/take_a_photo"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/save_file"
+        android:icon="@drawable/save_file"
+        android:title="@string/save_file"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/erase"
+        android:icon="@drawable/erase"
+        android:title="@string/erase"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/share"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/mesh"
+        android:title="@string/hide_mesh"
+        app:showAsAction="collapseActionView"/>
+
+    <item android:id="@+id/brushColor"
+        android:title="@string/brushColor"
+        app:showAsAction="collapseActionView"/>
+
+    <item android:id="@+id/save_location"
+        android:icon="@drawable/save_location"
+        android:title="@string/save_location"
+        app:showAsAction="collapseActionView"/>
+
+    <item android:id="@+id/selectModel"
+        android:title="@string/selectModel"
+        app:showAsAction="collapseActionView"/>
+</menu>
+
+<!--
+
+    <item android:id="@+id/ink"
+        android:icon="@drawable/ink"
+        android:title="@string/ink"
+        app:showAsAction="never"/>
+    <item android:id="@+id/line"
+        android:icon="@drawable/line"
+        android:title="@string/line"
+        app:showAsAction="never"/>
+    <item android:id="@+id/about"
+        android:icon="@drawable/about"
+        android:title="@string/about"
+        app:showAsAction="never"/>
+        -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <!-- 红色背景 -->
+            <item  >
+                <shape>
+                    <solid android:color="@color/Orange"></solid>
+                </shape>
+            </item>
+
+            <item android:bottom="1dp" android:top="0dp" android:left="0dp" android:right="1dp" >
+                <shape>
+                    <solid android:color="@color/SandyBrown"></solid>
+                </shape>
+            </item>
+
+        </layer-list>
+    </item>
+</selector>

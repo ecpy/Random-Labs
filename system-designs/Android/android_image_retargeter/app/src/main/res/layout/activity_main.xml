@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dd5f51"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="tech.silvermind.dirchooser.DirectoryChooserActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <tech.silvermind.demo.retargeter.ImageProcessingView
+        android:id="@+id/imageProcessingView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/adView"
+        />
+
+    <TextView
+        android:textColor="#cccccc"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:text="Please select image source from gallary or camera."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_above="@+id/adView"
+        android:id="@+id/textView" />
+
+    <com.google.android.gms.ads.AdView
+        android:elevation="4dp"
+        android:background="?attr/colorPrimary"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/ads_segma_retargeter_0"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        >
+
+        <!-- android:minHeight="30dp" -->
+
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

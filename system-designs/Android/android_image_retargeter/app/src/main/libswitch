@@ -1,0 +1,6 @@
+#!/bin/bash
+cp -R libs/* jniLibs;
+rm -R libs
+
+# harddisk:
+# sudo mount -o remount,uid=1000,gid=1000,rw /dev/sdc1

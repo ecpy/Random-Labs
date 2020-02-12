@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:elevation="2dp"
+    android:clipToPadding="false"
+    android:weightSum="1"
+    android:background="@drawable/about"
+    android:alpha="0.9"
+    >
+
+    <TextView
+        android:textStyle="italic|bold"
+        android:gravity="left|center"
+        android:textSize="13dp"
+        android:elevation="4dp"
+        android:height="40dp"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="30dp"
+        android:id="@+id/about_title"
+        android:text="@string/about_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:maxWidth="30dp"
+        android:height="40dp"
+        android:textStyle="italic"
+        android:gravity="left|top"
+        android:textSize="8dp"
+        android:elevation="4dp"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_values"
+        android:text="@string/about_values"
+        android:layout_below="@+id/about_title"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/about_title"
+        android:layout_alignRight="@+id/about_title"
+        android:layout_alignParentLeft="true" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/about_values"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:scaleType="fitEnd"
+            android:src="@drawable/about_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/about_title"
+            android:layout_alignBottom="@+id/about_values"
+            android:layout_gravity="right|center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/about_title" />
+    </FrameLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+To use the library .aar;
+
+- add below dependcies in build.gradle of app
+repositories {
+    mavenCentral()
+    maven { url 'http://guardian.github.com/maven/repo-releases' }
+}
+
+
+dependencies { 
+    compile 'com.gu:option:1.3' 
+} 
+
+
+Manifest:
+
+You need to declare the DirectoryChooserActivity and request the android.permission.WRITE_EXTERNAL_STORAGE permission.
+
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+...
+<application>
+    <activity android:name="net.rdrei.android.dirchooser.DirectoryChooserActivity" />
+</application>
