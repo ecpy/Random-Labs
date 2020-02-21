@@ -1,7 +1,7 @@
 # Random Labs
 
 ## projects
-- DDD and MVCS designs
+- DDD and MVCS, CQRS app design
 - p2p xfs protocol
 - ml
 - linux kernel
