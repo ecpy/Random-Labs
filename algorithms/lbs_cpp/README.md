@@ -6,7 +6,7 @@ last update - 2016/6/13
 ## Demonstration
 domain is twisted by custom setting of μ(domain).
 <p>
-<img src="https://github.com/ecpy/Random-Labs/raw/master/algo/lbs_cpp/demo/mesh.png" height="300"><img src="https://github.com/ecpy/Random-Labs/raw/master/algo/lbs_cpp/demo/mesh_result.png" height="300"> 
+<img src="https://raw.githubusercontent.com/ecpy/Random-Labs/master/algorithms/lbs_cpp/demo/mesh.png" height="300"><img src="https://raw.githubusercontent.com/ecpy/Random-Labs/master/algorithms/lbs_cpp/demo/mesh_result.png" height="300"> 
 
 ## Reference
 https://github.com/Edward-Yung/Q-Fibra-linear-beltrami-solver/blob/master/lbs.pdf
